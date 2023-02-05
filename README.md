@@ -14,6 +14,34 @@ Download size of this image is only:
 
 **Docker Pull Command**: `docker pull funnyzak/canal-adapter:latest`
 
+## Usage
+
+### Docker
+
+```bash
+docker run -d --name canal-adapter \
+  -v /path/to/canal-adapter/conf:/opt/canal/canal-adapter/conf \
+  -v /path/to/canal-adapter/logs:/opt/canal/canal-adapter/logs \
+  -p 8081:8081 \
+  funnyzak/canal-adapter:latest
+```
+
+### Compose
+
+```yaml
+version: '3.7'
+services:
+  canal-adapter:
+    image: funnyzak/canal-adapter:latest
+    container_name: canal-adapter
+    restart: on-failure
+    volumes:
+      - ./canal/canal-adapter/conf:/opt/canal/canal-adapter/conf
+      - ./canal/canal-adapter/logs:/opt/canal/canal-adapter/logs
+```
+
+More details about configuration, please refer to [canal-adapter](https://github.com/alibaba/canal/tree/master/client-adapter).
+
 ## Contribution
 
 If you have any questions or suggestions, please feel free to submit an issue or pull request.
