@@ -1,8 +1,10 @@
 # docker-canal-adapter
 
+![License](https://img.shields.io/github/license/funnyzak/canal-adapter-docker)
 [![Docker Stars](https://img.shields.io/docker/stars/funnyzak/canal-adapter.svg?style=flat-square)](https://hub.docker.com/r/funnyzak/canal-adapter/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/funnyzak/canal-adapter.svg?style=flat-square)](https://hub.docker.com/r/funnyzak/canal-adapter/)
 [![Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-adapter)](https://hub.docker.com/r/funnyzak/canal-adapter/)
+[![Docker Image Version (latest by date)](https://img.shields.io/docker/v/funnyzak/canal-adapter?label=latest)](https://hub.docker.com/r/funnyzak/canal-adapter/)
 
 A docker image for [canal-adapter](https://github.com/alibaba/canal/tree/master/client-adapter).
 
