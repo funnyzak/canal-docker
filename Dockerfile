@@ -1,10 +1,11 @@
 FROM funnyzak/alpine-glibc AS build
 
 ARG CANAL_ADAPTER_VERSION
+ENV CANAL_ADAPTER_DOWNLOAD_URL https://github.com/alibaba/canal/releases/download/canal-${CANAL_ADAPTER_VERSION}/canal.adapter-${CANAL_ADAPTER_VERSION}.tar.gz
 
 RUN apk add curl tar \
     && mkdir -p /opt/canal/canal-adapter \
-    && curl -fSL https://github.com/alibaba/canal/releases/download/canal-${CANAL_ADAPTER_VERSION}/canal.adapter-${CANAL_ADAPTER_VERSION}.tar.gz -o canal.adapter.tar.gz \
+    && curl -fSL "$CANAL_ADAPTER_DOWNLOAD_URL"  -o canal.adapter.tar.gz \
     && tar -xzf canal.adapter.tar.gz -C /opt/canal/canal-adapter \
     && rm canal.adapter.tar.gz* \
     && apk del curl tar
