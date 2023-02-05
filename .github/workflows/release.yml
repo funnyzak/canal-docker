@@ -3,9 +3,9 @@ on:
   push:
     tags:
       - "*"
-  release:
-    types: 
-      - created
+  # release:
+  #   types: 
+  #     - created
 env:
   IMAGE_REPOSITORY: funnyzak/canal-adapter
 jobs:
