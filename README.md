@@ -47,7 +47,7 @@ More details about configuration, please refer to [canal-adapter](https://github
 If you have any questions or suggestions, please feel free to submit an issue or pull request.
 
 <a href="https://github.com/funnyzak/canal-adapter-docker/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=funnyzak/vue-starter" />
+  <img src="https://contrib.rocks/image?repo=funnyzak/canal-adapter-docker" />
 </a>
 
 ## License
