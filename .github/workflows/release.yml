@@ -38,7 +38,7 @@ jobs:
             CANAL_ADAPTER_VERSION=${{ env.SOURGE_TAG }}
           push: true
           tags: |
-            ${{ env.IMAGE_REPOSITORY }}:${{ steps.refs.outputs.SOURCE_TAG }}
+            ${{ env.IMAGE_REPOSITORY }}:${{ env.SOURGE_TAG }}
             ${{ env.IMAGE_REPOSITORY }}:latest
           platforms: linux/amd64
   push-message:
