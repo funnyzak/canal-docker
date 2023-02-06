@@ -26,17 +26,6 @@ This repository contains the following images:
 
 ## Docker Images
 
-### Canal Server
-
-[![Docker Stars](https://img.shields.io/docker/stars/funnyzak/canal-server.svg?style=flat-square)](https://hub.docker.com/r/funnyzak/canal-server/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/funnyzak/canal-server.svg?style=flat-square)](https://hub.docker.com/r/funnyzak/canal-server/)
-[![Docker Release Version](https://img.shields.io/docker/v/funnyzak/canal-server?sort=semver&label=latest)](https://hub.docker.com/r/funnyzak/canal-server/)
-[![Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-server)](https://hub.docker.com/r/funnyzak/canal-server/)
-
-[Docker hub image: funnyzak/canal-server](https://hub.docker.com/r/funnyzak/canal-server)
-
-**Docker Pull Command**: `docker pull funnyzak/canal-server:latest`
-
 ### Canal Adapter
 
 [![Docker Stars](https://img.shields.io/docker/stars/funnyzak/canal-adapter.svg?style=flat-square)](https://hub.docker.com/r/funnyzak/canal-adapter/)
@@ -47,6 +36,17 @@ This repository contains the following images:
 [Docker hub image: funnyzak/canal-adapter](https://hub.docker.com/r/funnyzak/canal-adapter)
 
 **Docker Pull Command**: `docker pull funnyzak/canal-adapter:latest`
+
+### Canal Server
+
+[![Docker Stars](https://img.shields.io/docker/stars/funnyzak/canal-server.svg?style=flat-square)](https://hub.docker.com/r/funnyzak/canal-server/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/funnyzak/canal-server.svg?style=flat-square)](https://hub.docker.com/r/funnyzak/canal-server/)
+[![Docker Release Version](https://img.shields.io/docker/v/funnyzak/canal-server?sort=semver&label=latest)](https://hub.docker.com/r/funnyzak/canal-server/)
+[![Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-server)](https://hub.docker.com/r/funnyzak/canal-server/)
+
+[Docker hub image: funnyzak/canal-server](https://hub.docker.com/r/funnyzak/canal-server)
+
+**Docker Pull Command**: `docker pull funnyzak/canal-server:latest`
 
 ### Canal Admin
 
