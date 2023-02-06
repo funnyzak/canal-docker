@@ -59,7 +59,10 @@ jobs:
           tags: |
             ${{ env.DOCKER_IMAGE_NAME }}:${{ env.CANAL_COMPONENT_VERSION }}
             ${{ env.DOCKER_IMAGE_NAME }}:latest
-          platforms: linux/amd64
+          platforms: |
+            linux/amd64
+            linux/arm64/v8
+            windows/amd64
   push-message:
     name: Push message
     runs-on: ubuntu-latest
