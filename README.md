@@ -1,7 +1,7 @@
 # Canal Docker
 
 ![License](https://img.shields.io/github/license/funnyzak/canal-docker)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/funnyzak/canal-docker/release.yml?branch=main)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/funnyzak/canal-docker/build.yml?branch=main)
 [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/funnyzak/canal-adapter?label=latest)](https://hub.docker.com/r/funnyzak/canal-adapter/)
 
 Docker images for [canal](https://github.com/alibaba/canal). The images is based on Official [canal](https://github.com/alibaba/canal) repo.
