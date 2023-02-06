@@ -24,42 +24,35 @@ This repository contains the following images:
 - [canal-adapter](https://github.com/alibaba/canal/tree/master/client-adapter)
 - [canal-admin](https://github.com/alibaba/canal/tree/master/admin)
 
-## Canal Server
+## Docker Images
+
+### Canal Server
 
 [![Docker Stars](https://img.shields.io/docker/stars/funnyzak/canal-server.svg?style=flat-square)](https://hub.docker.com/r/funnyzak/canal-server/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/funnyzak/canal-server.svg?style=flat-square)](https://hub.docker.com/r/funnyzak/canal-server/)
-[![Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-server)](https://hub.docker.com/r/funnyzak/canal-server/)
-
-Download size of this image is:
-
+[![Docker Release Version](https://img.shields.io/docker/v/funnyzak/canal-server?sort=semver&label=latest)](https://hub.docker.com/r/funnyzak/canal-server/)
 [![Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-server)](https://hub.docker.com/r/funnyzak/canal-server/)
 
 [Docker hub image: funnyzak/canal-server](https://hub.docker.com/r/funnyzak/canal-server)
 
 **Docker Pull Command**: `docker pull funnyzak/canal-server:latest`
 
-## Canal Adapter
+### Canal Adapter
 
 [![Docker Stars](https://img.shields.io/docker/stars/funnyzak/canal-adapter.svg?style=flat-square)](https://hub.docker.com/r/funnyzak/canal-adapter/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/funnyzak/canal-adapter.svg?style=flat-square)](https://hub.docker.com/r/funnyzak/canal-adapter/)
-[![Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-adapter)](https://hub.docker.com/r/funnyzak/canal-adapter/)
-
-Download size of this image is:
-
+[![Docker Release Version](https://img.shields.io/docker/v/funnyzak/canal-adapter?sort=semver&label=latest)](https://hub.docker.com/r/funnyzak/canal-adapter/)
 [![Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-adapter)](https://hub.docker.com/r/funnyzak/canal-adapter/)
 
 [Docker hub image: funnyzak/canal-adapter](https://hub.docker.com/r/funnyzak/canal-adapter)
 
 **Docker Pull Command**: `docker pull funnyzak/canal-adapter:latest`
 
-## Canal Admin
+### Canal Admin
 
 [![Docker Stars](https://img.shields.io/docker/stars/funnyzak/canal-admin.svg?style=flat-square)](https://hub.docker.com/r/funnyzak/canal-admin/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/funnyzak/canal-admin.svg?style=flat-square)](https://hub.docker.com/r/funnyzak/canal-admin/)
-[![Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-admin)](https://hub.docker.com/r/funnyzak/canal-admin/)
-
-Download size of this image is:
-
+[![Docker Release Version](https://img.shields.io/docker/v/funnyzak/canal-admin?sort=semver&label=latest)](https://hub.docker.com/r/funnyzak/canal-admin/)
 [![Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-admin)](https://hub.docker.com/r/funnyzak/canal-admin/)
 
 [Docker hub image: funnyzak/canal-admin](https://hub.docker.com/r/funnyzak/canal-admin)
