@@ -1,6 +1,9 @@
 # Canal Docker
 
-此仓库已不在维护，最新构建的镜像请查看 [Docker Hub][(https://hub.docker.com/u/funnyzak](https://github.com/funnyzak/canal-docker))。
+**Note**:
+
+> This repository is no longer maintained. The latest built images can be found in the [Docker Publish](https://github.com/funnyzak/docker-publish).
+> 此仓库已不在维护，最新构建的镜像请查看 [Docker Publish](https://github.com/funnyzak/docker-publish) 。
 
 [![Build Status][build-status-image]][build-status]
 [![GitHub repo size][repo-size-image]][repository-url]
