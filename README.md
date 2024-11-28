@@ -3,14 +3,30 @@
 **Note**:
 
 > This repository is no longer maintained. The latest built images can be found in the [Docker Release](https://github.com/funnyzak/docker-release?tab=readme-ov-file#canal).
-> 
+
 > 此仓库已不在维护，最新构建的镜像请查看 [Docker Release](https://github.com/funnyzak/docker-release?tab=readme-ov-file#canal) 。
 
-[![Build Status][build-status-image]][build-status]
+
+[![Docker Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-adapter/latest?label=Canal-Adapter)](https://hub.docker.com/r/funnyzak/canal-adapter/tags)
+[![Docker Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-deployer/latest?label=Canal-Deployer)](https://hub.docker.com/r/funnyzak/canal-deployer/tags)
+[![Docker Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-admin/latest?label=Canal-Admin)](https://hub.docker.com/r/funnyzak/canal-admin/tags)
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/funnyzak/canal-adapter?label=Canal-Adapter)](https://hub.docker.com/r/funnyzak/canal-adapter)
+[![Docker Pulls](https://img.shields.io/docker/pulls/funnyzak/canal-deployer?label=Canal-Deployer)](https://hub.docker.com/r/funnyzak/canal-deployer)
+[![Docker Pulls](https://img.shields.io/docker/pulls/funnyzak/canal-admin?label=Canal-Admin)](https://hub.docker.com/r/funnyzak/canal-admin)
+
+[![Docker Version](https://img.shields.io/docker/v/funnyzak/canal-adapter/latest?label=Canal-Adapter)](https://hub.docker.com/r/funnyzak/canal-adapter/tags)
+[![Docker Version](https://img.shields.io/docker/v/funnyzak/canal-deployer/latest?label=Canal-Deployer)](https://hub.docker.com/r/funnyzak/canal-deployer/tags)
+[![Docker Version](https://img.shields.io/docker/v/funnyzak/canal-admin/latest?label=Canal-Admin)](https://hub.docker.com/r/funnyzak/canal-admin)
+
+
+
+
+<!-- [![Build Status][build-status-image]][build-status]
 [![GitHub repo size][repo-size-image]][repository-url]
 ![Latest commit][latest-commit]
 ![GitHub release (latest by date)][latest-release]
-![License][license-image]
+![License][license-image] -->
 
 [build-status-image]:  https://github.com/funnyzak/canal-docker/actions/workflows/build.yml/badge.svg
 [build-status]: https://github.com/funnyzak/canal-docker/actions
@@ -34,10 +50,10 @@ This repository contains the following images:
 
 ### Canal Adapter
 
-[![Docker Stars](https://img.shields.io/docker/stars/funnyzak/canal-adapter.svg?style=flat-square)](https://hub.docker.com/r/funnyzak/canal-adapter/)
+<!-- [![Docker Stars](https://img.shields.io/docker/stars/funnyzak/canal-adapter.svg?style=flat-square)](https://hub.docker.com/r/funnyzak/canal-adapter/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/funnyzak/canal-adapter.svg?style=flat-square)](https://hub.docker.com/r/funnyzak/canal-adapter/)
 [![Docker Release Version](https://img.shields.io/docker/v/funnyzak/canal-adapter?sort=semver&label=latest)](https://hub.docker.com/r/funnyzak/canal-adapter/)
-[![Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-adapter)](https://hub.docker.com/r/funnyzak/canal-adapter/)
+[![Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-adapter)](https://hub.docker.com/r/funnyzak/canal-adapter/) -->
 
 [Docker hub image: funnyzak/canal-adapter](https://hub.docker.com/r/funnyzak/canal-adapter)
 
@@ -45,10 +61,10 @@ This repository contains the following images:
 
 ### Canal Server
 
-[![Docker Stars](https://img.shields.io/docker/stars/funnyzak/canal-server.svg?style=flat-square)](https://hub.docker.com/r/funnyzak/canal-server/)
+<!-- [![Docker Stars](https://img.shields.io/docker/stars/funnyzak/canal-server.svg?style=flat-square)](https://hub.docker.com/r/funnyzak/canal-server/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/funnyzak/canal-server.svg?style=flat-square)](https://hub.docker.com/r/funnyzak/canal-server/)
 [![Docker Release Version](https://img.shields.io/docker/v/funnyzak/canal-server?sort=semver&label=latest)](https://hub.docker.com/r/funnyzak/canal-server/)
-[![Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-server)](https://hub.docker.com/r/funnyzak/canal-server/)
+[![Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-server)](https://hub.docker.com/r/funnyzak/canal-server/) -->
 
 [Docker hub image: funnyzak/canal-server](https://hub.docker.com/r/funnyzak/canal-server)
 
@@ -56,10 +72,10 @@ This repository contains the following images:
 
 ### Canal Admin
 
-[![Docker Stars](https://img.shields.io/docker/stars/funnyzak/canal-admin.svg?style=flat-square)](https://hub.docker.com/r/funnyzak/canal-admin/)
+<!-- [![Docker Stars](https://img.shields.io/docker/stars/funnyzak/canal-admin.svg?style=flat-square)](https://hub.docker.com/r/funnyzak/canal-admin/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/funnyzak/canal-admin.svg?style=flat-square)](https://hub.docker.com/r/funnyzak/canal-admin/)
 [![Docker Release Version](https://img.shields.io/docker/v/funnyzak/canal-admin?sort=semver&label=latest)](https://hub.docker.com/r/funnyzak/canal-admin/)
-[![Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-admin)](https://hub.docker.com/r/funnyzak/canal-admin/)
+[![Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-admin)](https://hub.docker.com/r/funnyzak/canal-admin/) -->
 
 [Docker hub image: funnyzak/canal-admin](https://hub.docker.com/r/funnyzak/canal-admin)
 
