@@ -15,6 +15,7 @@ RUN apk add curl tar \
 
 
 FROM openjdk:11-jre
+
 ARG BUILD_DATE
 ARG VCS_REF
 ARG CANAL_COMPONENT_VERSION 1.1.6

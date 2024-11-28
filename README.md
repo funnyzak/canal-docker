@@ -1,5 +1,7 @@
 # Canal Docker
 
+此仓库已不在维护，最新构建的镜像请查看 [Docker Hub][(https://hub.docker.com/u/funnyzak](https://github.com/funnyzak/canal-docker))。
+
 [![Build Status][build-status-image]][build-status]
 [![GitHub repo size][repo-size-image]][repository-url]
 ![Latest commit][latest-commit]
