@@ -2,49 +2,45 @@
 
 **Note**:
 
-> This repository is no longer maintained. The latest built images can be found in the [Docker Release](https://github.com/funnyzak/docker-release?tab=readme-ov-file#canal).
+> This repository is no longer maintained. The latest built images can be found in the [Docker Release](https://github.com/funnyzak/docker-release?tab=readme-ov-file#alibaba-canal).
+> 此仓库已不在维护，最新构建的镜像请查看 [Docker Release](https://github.com/funnyzak/docker-release?tab=readme-ov-file#alibaba-canal) 。
 
-> 此仓库已不在维护，最新构建的镜像请查看 [Docker Release](https://github.com/funnyzak/docker-release?tab=readme-ov-file#canal) 。
-
-
-[![Docker Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-adapter/latest?label=Canal-Adapter)](https://hub.docker.com/r/funnyzak/canal-adapter/tags)
-[![Docker Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-deployer/latest?label=Canal-Deployer)](https://hub.docker.com/r/funnyzak/canal-deployer/tags)
-[![Docker Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-admin/latest?label=Canal-Admin)](https://hub.docker.com/r/funnyzak/canal-admin/tags)
-
-[![Docker Pulls](https://img.shields.io/docker/pulls/funnyzak/canal-adapter?label=Canal-Adapter)](https://hub.docker.com/r/funnyzak/canal-adapter)
-[![Docker Pulls](https://img.shields.io/docker/pulls/funnyzak/canal-deployer?label=Canal-Deployer)](https://hub.docker.com/r/funnyzak/canal-deployer)
-[![Docker Pulls](https://img.shields.io/docker/pulls/funnyzak/canal-admin?label=Canal-Admin)](https://hub.docker.com/r/funnyzak/canal-admin)
-
-[![Docker Version](https://img.shields.io/docker/v/funnyzak/canal-adapter/latest?label=Canal-Adapter)](https://hub.docker.com/r/funnyzak/canal-adapter/tags)
-[![Docker Version](https://img.shields.io/docker/v/funnyzak/canal-deployer/latest?label=Canal-Deployer)](https://hub.docker.com/r/funnyzak/canal-deployer/tags)
-[![Docker Version](https://img.shields.io/docker/v/funnyzak/canal-admin/latest?label=Canal-Admin)](https://hub.docker.com/r/funnyzak/canal-admin)
+| Image | Tag | Size | Pulls |
+|---|---|---|---|
+| Canal-Adapter | [![Docker Tag](https://img.shields.io/docker/v/funnyzak/canal-adapter?label=Canal-Adapter&sort=semver&style=flat-square)](https://hub.docker.com/r/funnyzak/canal-adapter) | [![Docker Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-adapter/latest?label=Canal-Adapter)](https://hub.docker.com/r/funnyzak/canal-adapter) | [![Docker Pulls](https://img.shields.io/docker/pulls/funnyzak/canal-adapter?label=Canal-Adapter)](https://hub.docker.com/r/funnyzak/canal-adapter) |
+| Canal-Deployer | [![Docker Tag](https://img.shields.io/docker/v/funnyzak/canal-deployer?label=Canal-Deployer&sort=semver&style=flat-square)](https://hub.docker.com/r/funnyzak/canal-deployer) | [![Docker Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-deployer/latest?label=Canal-Deployer)](https://hub.docker.com/r/funnyzak/canal-deployer) | [![Docker Pulls](https://img.shields.io/docker/pulls/funnyzak/canal-deployer?label=Canal-Deployer)](https://hub.docker.com/r/funnyzak/canal-deployer) |
+| Canal-Admin | [![Docker Tag](https://img.shields.io/docker/v/funnyzak/canal-admin?label=Canal-Admin&sort=semver&style=flat-square)](https://hub.docker.com/r/funnyzak/canal-admin) | [![Docker Image Size](https://img.shields.io/docker/image-size/funnyzak/canal-admin/latest?label=Canal-Admin)](https://hub.docker.com/r/funnyzak/canal-admin) | [![Docker Pulls](https://img.shields.io/docker/pulls/funnyzak/canal-admin?label=Canal-Admin)](https://hub.docker.com/r/funnyzak/canal-admin) |
 
 
+Alibaba Canal, a component for incremental subscription and consumption of binlogs in MySQL.  Images are built for `linux/amd64` and `linux/arm64` architectures, and based on Official [canal](https://github.com/alibaba/canal) repo.
 
+All Images are installed under the `/opt/canal` directory.  For example, the `canal-adapter` service is installed under `/opt/canal/canal-adapter`.
 
-<!-- [![Build Status][build-status-image]][build-status]
-[![GitHub repo size][repo-size-image]][repository-url]
-![Latest commit][latest-commit]
-![GitHub release (latest by date)][latest-release]
-![License][license-image] -->
-
-[build-status-image]:  https://github.com/funnyzak/canal-docker/actions/workflows/build.yml/badge.svg
-[build-status]: https://github.com/funnyzak/canal-docker/actions
-[repo-size-image]: https://img.shields.io/github/repo-size/funnyzak/canal-docker?style=flat-square&logo=github&logoColor=white&label=size
-[repository-url]: https://github.com/funnyzak/canal-docker
-[license-image]: https://img.shields.io/github/license/funnyzak/canal-docker?style=flat-square&logo=github&logoColor=white&label=license
-[latest-commit]: https://img.shields.io/github/last-commit/funnyzak/canal-docker
-[latest-release]: https://img.shields.io/github/v/release/funnyzak/canal-docker
-
-Docker images for [canal](https://github.com/alibaba/canal). The images is based on Official [canal](https://github.com/alibaba/canal) repo.
-
- **Sync with the latest version of canal.**
 
 This repository contains the following images:
 
 - [canal-server](https://github.com/alibaba/canal/tree/master/server)
 - [canal-adapter](https://github.com/alibaba/canal/tree/master/client-adapter)
 - [canal-admin](https://github.com/alibaba/canal/tree/master/admin)
+
+## Docker Pull
+
+```bash
+# Docker Hub
+docker pull funnyzak/canal-adapter:latest
+docker pull funnyzak/canal-deployer:latest
+docker pull funnyzak/canal-admin:latest
+
+# GitHub Container Registry (GHCR)
+docker pull ghcr.io/funnyzak/canal-adapter:latest
+docker pull ghcr.io/funnyzak/canal-deployer:latest
+docker pull ghcr.io/funnyzak/canal-admin:latest
+
+# Alibaba Cloud Container Registry
+docker pull registry.cn-beijing.aliyuncs.com/funnyzak/canal-adapter:latest
+docker pull registry.cn-beijing.aliyuncs.com/funnyzak/canal-deployer:latest
+docker pull registry.cn-beijing.aliyuncs.com/funnyzak/canal-admin:latest
+```
 
 ## Docker Images
 
